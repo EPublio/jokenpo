@@ -1,0 +1,52 @@
+*{
+  margin:auto;
+  padding: auto;
+  background-color: black;
+  color:white;
+  
+}
+img{
+  width:300px;
+  height: 300px;
+}
+.escolha img:hover{
+  transition: .5s;
+  filter:invert(10%);
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+}
+
+.escolha{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.escolha img{
+  margin: 20px;
+}
+
+h1{
+  text-align: center;
+  font-family: cursive;
+}
+
+.escolhido{
+  filter:invert(100%)!important
+}
+
+.jogada img{
+  filter:none !important;
+  width: 150px;
+  height: 200px;
+  
+}
+.jogada{
+  display: flex;
+  justify-content: space-between;
+  width:400px;
+  margin-top:30px
+}
